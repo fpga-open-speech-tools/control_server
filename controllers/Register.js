@@ -1,6 +1,6 @@
 'use strict';
 
-const util = require('./utilities.js');
+const util = require('../utilities.js');
 const fs = require('fs');
 
 const deviceLocation = "/sys/class";

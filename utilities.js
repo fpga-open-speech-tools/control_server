@@ -31,6 +31,7 @@ exports.saveJsonFile = function (filepath, jsonData) {
 exports.convertModelJsonToUIJson = function(filepath) {
     model = exports.loadJsonFile(filepath)
     ui = {}
+    ui.name = ""
     ui.data = []
     model.devices.forEach(device => {
         device.registers.forEach(reg => {

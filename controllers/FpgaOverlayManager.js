@@ -1,8 +1,8 @@
 'use strict';
 
-const util = require('./utilities.js');
+const util = require(',./utilities.js');
 
-const SCRIPT_PATH = "../utils/runtime_config"
+const SCRIPT_PATH = "../../utils/runtime_config"
 
 exports.downloadAndInstall = function(s3dir, configPath) {
     return new Promise((resolve, reject) => {
